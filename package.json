@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,8 @@
   "devDependencies": {
     "sass": "^1.54.7",
     "vite": "^3.0.9"
+  },
+  "dependencies": {
+    "jest": "^29.0.1"
   }
 }

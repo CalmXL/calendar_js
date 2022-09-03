@@ -4,42 +4,4 @@
   border: 1px solid #ddd;
   font-size: 12px;
   color: #666;
-  border-collapse: collapse;
-}
-
-tHead {
-  border-bottom: 1px solid #ddd;
-}
-
-th {
-  font-weight: normal;
-}
-
-tr {
-  height: 38px;
-}
-
-td {
-  text-align: center;
-  cursor: pointer;
-}
-
-.day {
-  &.rest-day {
-    color: #ccc;
-  }
-
-  &.current-day {
-    cursor: pointer;
-  }
-
-  &.current {
-    color: hotpink;
-    font-weight: bold;
-  }
-
-  &.selected {
-    background-color: aqua;
-    color: #fff;
-  }
 }
